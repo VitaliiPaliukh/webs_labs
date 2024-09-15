@@ -1,0 +1,80 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header{
+    padding: 53px 163px 0 191px;
+
+}
+/*.header_title{*/
+/*    margin-right: 1px;*/
+/*}*/
+
+nav{
+    display: flex;
+    column-gap: 40px;
+}
+
+.header__nav a{
+    font-family: Innova, sans-serif;
+    color: grey;
+    font-size: 18px;
+}
+
+
+/*.container{*/
+/*    padding: 63px 190px;*/
+/*}*/
+
+/*.container{*/
+/*    padding: 63px 190px;*/
+/*}*/
+
+
+/*.header__nav ul {*/
+/*    display: flex;*/
+/*}*/
+
+
+/*.header__nav-item{*/
+/*    margin-right: 42px;*/
+/*}*/
+
+/*.container__hero button{*/
+/*    background-color: #fff;*/
+/*    color: #458FF6;*/
+/*    border: 1px solid #458FF6;*/
+/*    padding: 18px 45px;*/
+/*    border-radius: 45px;*/
+/*    font-size: 18px;*/
+/*    column-gap: 20px;*/
+/*    width: 200px;*/
+/*    height: 56px;*/
+/*}*/
+
+/*.container__hero {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+
+/*}*/
+
+/*.hero__inner {*/
+/*    padding: 0 0 0 192px;*/
+/*}*/
+
+/*aside {*/
+/*    padding: 0 254px 0 0;*/
+/*}*/
+
+/*.hero__inner p{*/
+/*    color: grey;*/
+/*    font-size: 22px;*/
+/*}*/
+
+/*.hero__inner h1{*/
+/*    color: black;*/
+/*    font-size: 52px;*/
+/*}*/

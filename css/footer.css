@@ -1,0 +1,37 @@
+.footer__background{
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    /*padding-top: 154px;*/
+}
+
+/*.footer__background img{*/
+/*    margin-left: 227px;*/
+/*    padding-top: 63px;*/
+/*}*/
+
+.footer_logo{
+    padding: 75px 153px 45px 227px;
+}
+
+
+
+.footer_nav a{
+    display: flex;
+    margin: 0 70px;
+    font-family: Innova, sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.footer_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*nav{*/
+/*    display: flex;*/
+/*    margin: 10px 20px;*/
+/*}*/
