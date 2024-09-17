@@ -70,7 +70,45 @@
     color: white;
 }
 
-.tumbler{
-    margin-left: 391px;
-    margin-top: 42px;
+/*.tumbler{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    column-gap: 42px;*/
+/*}*/
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    column-gap: 90px;
+    margin-top: 47px;
+
+    img {
+        height: 20px;
+        width: auto;
+        cursor: pointer;
+    }
+    & > div {
+        display: flex;
+        column-gap: 18px;
+    }
+    .dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #5B9BF3;
+        cursor: pointer;
+        /*transition: all var(--base-tr);*/
+
+        &:not(:first-child) {
+            opacity: 0.4;
+        }
+
+        @media (hover: hover) {
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
 }
+
