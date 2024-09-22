@@ -2,37 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My First HTML Page</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 <header class="hero">
     <div class="container">
-        <section class="header">
-            <nav class="header__nav">
+        <section class="header" id="header">
+            <div class="hamburger" id="hamburger">
+                <div id="line1"></div>
+                <div id="line2"></div>
+                <div id="line3"></div>
+            </div>
+            <nav class="header__nav" id="nav">
                 <a href="" style="color: black ">Home</a>
                 <a href="">Find a doctor</a>
                 <a href="">Apps</a>
                 <a href="">Testimonials</a>
                 <a href="">About us</a>
             </nav>
-            <div class="header_title">
+            <div class="header_title" id="logo">
                 <img src="assets/logo.svg" alt="logo">
             </div>
         </section>
     </div>
 </header>
+<div id="container"></div>
 <main>
     <section class="container__hero">
         <div class="hero__inner">
             <h1 class="hero__title">Download our mobile apps</h1>
             <div class="line"></div>
-            <p>Our dedicated patient engagement app and web portal
+            <p class="our_dedicated">Our dedicated patient engagement app and web portal
                 allow you to access information instantaneously
                 (no tedeous form, long calls, or administrative hassle) and securely</p>
-            <button class="hero__button">Download <img src="assets/Vector.svg"></button>
+            <button class="hero__button">Download <img src="assets/Vector.svg" alt="dowload_button"></button>
         </div>
-        <aside>
+        <aside class="aside_img">
             <img src="assets/Frame%202.svg" alt="ilustration">
         </aside>
     </section>
@@ -42,23 +49,21 @@
         <div class="articles">
             <div class="article">
                 <img class="bubble" src="assets/element.svg " alt="bubbles">
-                <img src="assets/MaskGroup.svg" alt="->">
+                <img class="article_img" src="assets/MaskGroup.svg" alt="->">
                 <h3>Disease detection, check up in the laboratory</h3>
                 <p>In this case, the role of the health laboratory is very important to do a disease detection...</p>
-                <a href="">Read more <img src="assets/VectorRight.svg" alt="->"></a>
+                <a href="">Read more <img class="article_vector" src="assets/VectorRight.svg" alt="->"></a>
             </div>
             <div class="article">
                 <img src="assets/microscop.svg" alt="->">
                 <h3>Herbal medicines that are safe for consumption</h3>
                 <p>Herbal medicine is very widely used at this time because of its very good for your health...</p>
-                <a href="">Read more <img src="assets/VectorRight.svg" alt="->"></a>
+                <a href="">Read more <img class="article_vector" src="assets/VectorRight.svg" alt="->"></a>
             </div>
-            <div class="article">
-                <img class="circle" src="assets/kolo.svg" alt="circle">
-                <img src="assets/Mas.svg" alt="->">
+            <div class="article"><img src="assets/Mas.svg" alt="->">
                 <h3>Natural care for healthy facial skin</h3>
                 <p>A healthy lifestyle should start from now and also for your skin health. There are some...</p>
-                <a href="">Read more <img src="assets/VectorRight.svg" alt="->"></a>
+                <a href="">Read more <img class="article_vector" src="assets/VectorRight.svg" alt="->"></a>
             </div>
         </div>
         <a class="view" href="">View all </a>
@@ -71,10 +76,12 @@
                     <div class="white_line"></div>
                 </div>
                 <div class="person">
-                    <img src="assets/image%201.svg" alt="man">
-                    <div>
-                        <h6>Edward Newgate</h6>
-                        <p>Founder Circle</p>
+                    <div class="persons__name">
+                        <img src="assets/image%201.svg" alt="man">
+                        <div class="edward">
+                            <h6>Edward Newgate</h6>
+                            <p>Founder Circle</p>
+                        </div>
                     </div>
                     <p class="description">“Our dedicated patient engagement app and web portal allow you to access
                         information instantaneously (no tedeous form, long calls, or administrative hassle) and
@@ -108,4 +115,5 @@
         </div>
     </div>
 </footer>
+<script src="hedder.js"></script>
 </body>
