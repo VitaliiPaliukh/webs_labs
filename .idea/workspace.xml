@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="136879c6-b864-4fb1-a41e-315478b6d575" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/12.html" beforeDir="false" afterPath="$PROJECT_DIR$/12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/article.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/article.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/customer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/customer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hedder.js" beforeDir="false" afterPath="$PROJECT_DIR$/hedder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/hero_viewpage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/viewpage_styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/viewpage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12.html" beforeDir="false" afterPath="$PROJECT_DIR$/viewpage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/landingpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/landingpage.html" afterDir="false" />
     </list>
     <list id="f238da05-db2c-4fbb-93c8-e395835ee6cf" name="Changes by Danylo" comment="" />
@@ -24,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -39,27 +36,29 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2lnaO33IwHMkFKO15nNv4otyO2d" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.landingpage.html.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "lab2",
-    "last_opened_file_path": "C:/studying/webs_labs/lab1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.landingpage.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lab2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/studying/webs_labs/lab1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="{" />
@@ -117,7 +116,23 @@
       <workItem from="1726833196165" duration="10997000" />
       <workItem from="1726854153679" duration="11278000" />
       <workItem from="1726903682521" duration="6283000" />
-      <workItem from="1727016053895" duration="701000" />
+      <workItem from="1727016053895" duration="1544000" />
+      <workItem from="1727024951182" duration="1065000" />
+      <workItem from="1727094706069" duration="4576000" />
+      <workItem from="1727190176006" duration="98000" />
+      <workItem from="1727206227235" duration="1883000" />
+      <workItem from="1727283765138" duration="5935000" />
+      <workItem from="1727447274319" duration="274000" />
+      <workItem from="1727523727304" duration="7652000" />
+      <workItem from="1727540609921" duration="1356000" />
+      <workItem from="1727605330396" duration="2244000" />
+      <workItem from="1727618223597" duration="3462000" />
+      <workItem from="1727704485470" duration="439000" />
+      <workItem from="1727705316177" duration="14392000" />
+      <workItem from="1727759981948" duration="1167000" />
+      <workItem from="1727768418336" duration="2109000" />
+      <workItem from="1727770552546" duration="664000" />
+      <workItem from="1728210675163" duration="184000" />
     </task>
     <servers />
   </component>
