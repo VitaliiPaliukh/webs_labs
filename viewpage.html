@@ -82,28 +82,33 @@
                 <button id="count-chainsaws">Count</button>
                 <h3 class="h6">Total power: <span class="h3" id="amount"></span></h3>
             </div>
+            <form class="adding_form" id="add-chainsaw-form">
+                <input type="text" id="new-id" placeholder="ID" required>
+                <input type="text" id="new-title" placeholder="Title" required>
+                <input type="number" id="new-revolutions" placeholder="Revolutions" required>
+                <input type="number" id="new-power" placeholder="Power" required>
+<!--                <input type="text" id="new-image" placeholder="Image URL" required>-->
+                <button type="submit">Add Chainsaw</button>
+            </form>
         </div>
         <div class="chainsaws-container" id="chainsaws-container">
         </div>
         <template id="chainsaw-template">
-            <div class="chainsaw-item">
-                <p class="id" id="id"></p>
-                <div class="text">
-                    <img src="" alt="photo" id="item-image">
-                    <h3 class="h2" id="title"></h3>
-                    <p class="h4" id="revolutions"></p>
-                    <p class="h4" id="power">dd</p>
-                </div>
-<!--                <div class="dates">-->
-<!--                    &lt;!&ndash;                    <p class="h6">Due date: <span id="due-date"></span></p>&ndash;&gt;-->
-<!--&lt;!&ndash;                    <p class="h6">Last updated: <span id="last-updated"></span></p>&ndash;&gt;-->
-<!--                </div>-->
-                <div class="buttons">
-                    <button class="update-button" id="update">Update</button>
-                    <button class="delete-button" id="delete">Delete</button>
-                </div>
-            </div>
-        </template>
+    <div class="chainsaw-item">
+        <div class="id" id="id"></div>
+        <img id="item-image" src="" alt="Chainsaw Image">
+        <div class="text">
+            <div id="title" class="edit-input"></div>
+            <div id="revolutions" class="edit-input"></div>
+            <div id="power" class="edit-input"></div>
+        </div>
+        <div class="buttons">
+            <button id="update" class="update-button">Update</button>
+            <button id="save" class="save-button" style="display:none;">Save</button>
+            <button id="delete" class="delete-button">Delete</button>
+        </div>
+    </div>
+</template>
     </section>
 </main>
 <!--<footer>-->

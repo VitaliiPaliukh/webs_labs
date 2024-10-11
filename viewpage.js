@@ -74,7 +74,7 @@ function showChainsaws(chainsaws) {
         revolutions.innerText = `RPM = ${chainsaws[i].revolutions}`;
         const power = clone.querySelector("#power");
         power.innerText = `power = ${chainsaws[i].power} V`;
-        clone.querySelector("#update").addEventListener("click", updateElement, this);
+        // clone.querySelector("#update").addEventListener("click", updateElement, this);
         clone.querySelector("#delete").addEventListener("click", deleteElement, this);
         temp_container.appendChild(clone);
     }
@@ -133,9 +133,9 @@ function countChainsaws() {
     document.querySelector("#amount").innerText = amount;
 }
 
-function updateElement(elem) {
-    console.log("update");
-}
+// function updateElement(elem) {
+//     console.log("update");
+// }
 
 function resetChainsaws() {
     clearChainsaws();
@@ -149,20 +149,84 @@ function searchChainsaws() {
     showChainsaws(chainsaws_search);
 }
 
-// function closure(elem) {
-//     let a = "dasdasd";
-//
-//     function inner() {
-//         console.log(inner2());
-//     }
-//     function inner2(){
-//         return a
-//     }
-//     function inner() {
-//         console.log("haha");
-//     }
-//     return inner();
-// }
-//
-// closure();
-// inner();
+document.getElementById("add-chainsaw-form").addEventListener("submit", function(event) {
+    event.preventDefault();
+    addChainsaw();
+});
+
+
+function addChainsaw() {
+    const id = document.getElementById("new-id").value;
+    const title = document.getElementById("new-title").value;
+    const revolutions = parseInt(document.getElementById("new-revolutions").value);
+    const power = parseInt(document.getElementById("new-power").value);
+    const image = "../assets/depositphotos_5935363-stock-photo-chainsaw.jpg";
+
+    const notDuplicate = chainsaws.find(chainsaw => chainsaw.id === id);
+    if (notDuplicate){
+        alert("already exists");
+        return;
+    }
+
+    if (revolutions < 0 || power <0 ) {
+        alert("<0");
+        return;
+    }
+
+    const newChainsaw = new chainsaw(id, image, title, revolutions, power);
+
+    chainsaws.push(newChainsaw);
+
+    clearChainsaws();
+    showChainsaws(chainsaws);
+    searchChainsaws(newChainsaw);
+    sortChainsaws(newChainsaw);
+
+    document.getElementById("add-chainsaw-form").reset();
+
+}
+
+document.addEventListener("click", function(event) {
+    if (event.target && event.target.classList.contains("update-button")) {
+        updateElement(event.target);
+    }
+});
+
+document.addEventListener("click", function(event) {
+    if (event.target && event.target.classList.contains("save-button")) {
+        saveElement(event.target);
+    }
+});
+
+function updateElement(elem) {
+    let element = elem.closest(".chainsaw-item");
+    let title = element.querySelector("#title");
+    let revolutions = element.querySelector("#revolutions");
+    let power = element.querySelector("#power");
+
+    title.innerHTML = `<input type="text" value="${title.innerText}" class="edit-input">`;
+    revolutions.innerHTML = `<input type="number" value="${revolutions.innerText.replace('RPM = ', '')}" class="edit-input">`;
+    power.innerHTML = `<input type="number" value="${power.innerText.replace('power = ', '').replace(' V', '')}" class="edit-input">`;
+
+    element.querySelector(".save-button").style.display = "inline-block";
+    elem.style.display = "none";
+}
+
+function saveElement(elem) {
+    let element = elem.closest(".chainsaw-item");
+    let id = element.querySelector("#id").innerText;
+    let title = element.querySelector("#title input").value;
+    let revolutions = parseInt(element.querySelector("#revolutions input").value);
+    let power = parseInt(element.querySelector("#power input").value);
+    const image = "../assets/depositphotos_5935363-stock-photo-chainsaw.jpg";
+
+    const updatedChainsaw = new chainsaw(id, image, title, revolutions, power);
+    const index = chainsaws.findIndex(chainsaw => chainsaw.id === id);
+    chainsaws[index] = updatedChainsaw;
+
+    clearChainsaws();
+    showChainsaws(chainsaws);
+    searchChainsaws(updatedChainsaw);
+    sortChainsaws(updatedChainsaw);
+
+}
