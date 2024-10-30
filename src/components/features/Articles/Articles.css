@@ -1,0 +1,28 @@
+.articles h2 {
+    font-family: Innova, sans-serif;
+    color: black;
+}
+
+.last-articles {
+    margin-top: 202px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 140px;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.articles {
+    display: flex;
+    column-gap: 3px;
+}
+
+.articles {
+    padding: 53px 0 0 0;
+
+}
