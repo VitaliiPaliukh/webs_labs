@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
-import photo from '../../assets/logo.svg'
+import photo from '../../assets/logo.svg';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -11,8 +12,8 @@ const Header = () => {
                 <div id="line3"></div>
             </div>
             <nav className="header__nav" id="nav">
-                <a href="">Home</a>
-                <a href="">Find a chainsaw</a>
+                <Link to="/">Home</Link>
+                <Link to="/catalog">Catalog</Link>
                 <a href="">Apps</a>
                 <a href="">Testimonials</a>
                 <a href="">About us</a>

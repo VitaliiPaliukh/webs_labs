@@ -1,19 +1,21 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Header from "./components/features/Header/Header";
-import Home from "./components/pages/Home/Home";
-import Footer from "./components/features/Footer/Footer";
-import Layout from "./components/Layouts/Layout";
-import {BrowserRouter} from "react-router-dom";
+import Home from './components/pages/Home/Home';
+import CatalogPage from './components/pages/CatalogPage/CatalogPage';
+import Layout from './components/Layouts/Layout';
 
 function App() {
-  return (
-      <>
-        <Header />
-        <Home />
-        <Footer />
-      </>
-  );
+    return (
+        <Router>
+            <Routes>
+                <Route path="/" element={<Layout />}>
+                    <Route index element={<Home />} />
+                    <Route path="catalog" element={<CatalogPage />} />
+                    {/* Add other routes here */}
+                </Route>
+            </Routes>
+        </Router>
+    );
 }
 
 export default App;

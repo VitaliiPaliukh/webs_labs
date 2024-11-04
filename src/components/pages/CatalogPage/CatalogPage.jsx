@@ -1,10 +1,12 @@
 import React from 'react';
-
+import CatalogFilters from "../../features/CatalogFilters/CatalogFilters";
+import CatalogMenu from "../../features/CatalogMenu/CatalogMenu";
 const CatalogPage = () => {
     return (
-        <div>
-            <h1>CatalogPage</h1>
-        </div>
+        <>
+            <CatalogFilters/>
+            <CatalogMenu/>
+        </>
     );
 };
 

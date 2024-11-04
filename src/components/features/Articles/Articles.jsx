@@ -2,6 +2,7 @@ import React from 'react';
 import Article from "../../entities/Article/Article";
 import deposit from "../../assets/depositphotos.jpg";
 import './Articles.css';
+import ViewAll from "../../common/ViewAll/ViewAll";
 
 const articlesData = [
     {
@@ -36,7 +37,7 @@ const Articles = () => {
                         />
                     ))}
                 </div>
-                <a className="view" href="">View all </a>
+                <ViewAll/>
             </section>
         </div>
     );

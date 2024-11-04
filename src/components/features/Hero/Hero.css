@@ -122,21 +122,21 @@
 
 
 
-.view {
-    text-decoration: none;
-    font-family: Innova, sans-serif;
-    font-weight: bold;
-    background-color: #fff;
-    color: #458FF6;
-    border: 2px solid #458FF6;
-    padding: 16px 65px;
-    border-radius: 45px;
-    font-size: 20px;
-    /*width: 210px;*/
-    /*height: 56px;*/
-    /*margin-left: 656px;*/
-    /*margin-top: 72px;*/
-}
+/*.view {*/
+/*    text-decoration: none;*/
+/*    font-family: Innova, sans-serif;*/
+/*    font-weight: bold;*/
+/*    background-color: #fff;*/
+/*    color: #458FF6;*/
+/*    border: 2px solid #458FF6;*/
+/*    padding: 16px 65px;*/
+/*    border-radius: 45px;*/
+/*    font-size: 20px;*/
+/*    !*width: 210px;*!*/
+/*    !*height: 56px;*!*/
+/*    !*margin-left: 656px;*!*/
+/*    !*margin-top: 72px;*!*/
+/*}*/
 
 
 /*.article_img{*/
