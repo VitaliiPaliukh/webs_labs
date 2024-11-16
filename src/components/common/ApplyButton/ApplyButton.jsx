@@ -1,9 +1,9 @@
 import React from 'react';
 import './ApplyButton.css';
 
-const ApplyButton = () => {
+const ApplyButton = ({ onClick }) => {
     return (
-        <button className="apply_button">Apply</button>
+        <button className="apply_button" onClick={onClick}>Apply</button>
     );
 };
 

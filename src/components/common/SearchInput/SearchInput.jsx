@@ -1,8 +1,16 @@
 import React from 'react';
 import './SearchInput.css';
 
-const SearchInput = () => {
-    return <input type={'text'} placeholder="Search" className={'search_input'} />;
+const SearchInput = ({ value, onChange }) => {
+    return (
+        <input
+            type="text"
+            placeholder="Search"
+            className="search_input"
+            value={value}
+            onChange={onChange}
+        />
+    );
 };
 
 export default SearchInput;

@@ -3,6 +3,8 @@ import './Article.css';
 
 
 const Article = ({title, description, picture}) => {
+
+
     return (
         <div className="article">
             <img src={picture} alt="article"/>

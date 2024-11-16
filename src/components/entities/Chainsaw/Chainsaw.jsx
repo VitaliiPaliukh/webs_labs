@@ -13,7 +13,7 @@ const Chainsaw = ({ id, image, title, rate, power, size }) => {
                     <p className="h4" id="power">{power}</p>
                     <p className="h4" id="size">{size}</p>
                 </div>
-                <ViewMoreInfo/>
+                <ViewMoreInfo id={id} />
             </div>
         </div>
     );
