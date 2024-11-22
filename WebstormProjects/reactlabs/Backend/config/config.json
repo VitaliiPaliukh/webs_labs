@@ -1,0 +1,10 @@
+{
+  "development": {
+    "password": "vitalik16",
+    "username": "root",
+    "database": "chainsaws",
+    "host": "localhost",
+    "port": 3306,
+    "dialect": "mysql"
+  }
+}
