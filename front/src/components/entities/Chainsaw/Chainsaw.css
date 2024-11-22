@@ -1,0 +1,49 @@
+.items {
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+    gap: 20px;
+}
+
+.chainsaw-item {
+    width: 300px;
+    /*height: 500px;*/
+    min-height: 180px;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 8px 10px;
+    /*row-gap: 20px;*/
+    margin: 20px;
+    gap: 20px;
+
+}
+
+.text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    h1{
+        font-size: 32px;
+        font-family: Innova, sans-serif;
+        font-weight: bold;
+    }
+    p{
+        font-size: 18px;
+        font-family: Innova, sans-serif;
+        line-height: 22px;
+        color: grey;
+    }
+}
+
+.chainsaw-item img {
+    width: 100%; /* Make the image fit the width of the container */
+    height: auto; /* Maintain the aspect ratio */
+    border-size: 0;
+}
+

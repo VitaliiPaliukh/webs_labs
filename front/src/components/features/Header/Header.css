@@ -1,0 +1,150 @@
+.header button.active {
+    background-color: black;
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header{
+    padding: 53px 163px 0 191px;
+
+}
+
+
+nav{
+    display: flex;
+    column-gap: 40px;
+    a{
+        text-decoration: none   ;
+    }
+}
+
+.header__nav a{
+    font-family: Innova, sans-serif;
+    color: grey;
+    font-size: 21px;
+}
+
+.hamburger div{
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    transition: 0.2s ease-in-out;
+}
+
+
+.hamburger {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    display: none;
+    cursor: pointer;
+}
+
+#container{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+@media screen and (min-width: 2200px) {
+    header nav{
+        column-gap: 70px;
+    }
+    .header .header__nav a{
+        font-size: 30px;
+    }
+    .header .header_title img{
+        width: 250px;
+        height: 80px;
+    }
+    .header{
+        padding: 53px 290px 0;
+    }
+}
+
+
+@media screen and (min-width: 1800px) and (max-width: 2200px){
+    nav{
+        column-gap: 50px;
+    }
+    .header__nav a{
+        font-size: 24px;
+    }
+    .header_title img{
+        width: 200px;
+        height: 60px;
+    }
+    .header{
+        padding: 53px 183px 0 211px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .hero .container .header{
+        padding: 53px clamp(10.188rem, -2.063rem + 14vw, 11.938rem) 0 ;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .hero .container .header {
+        padding: 53px clamp(8.125rem, -4.25rem + 16.5vw, 10.188rem) 0;
+
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .hero .container .header{
+        padding: 53px clamp(5.625rem, -45.385rem + 76.923vw, 7.5rem) 0;
+    }
+}
+
+@media screen and (max-width: 1056px) {
+    .hero .container .header{
+        padding: 53px clamp(3.75rem, -58.246rem + 96.774vw, 5.625rem)  0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .hamburger{
+        display: flex;
+    }
+    #container ul {
+        flex-direction: column;
+        align-items: end;
+        margin-bottom: 20px;
+    }
+    .header nav{
+        display: none;
+        gap:10px;
+    }
+
+    .hero .container .header{
+        padding: 53px 42% 0 130px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .hero .container .header{
+        padding: 10px 10px;
+    }
+    .hero {
+        position: sticky;
+        top: 0;
+        background-color: white;
+        padding: 0 5px;
+        z-index: 999999;
+    }
+
+}
+
