@@ -1,12 +1,13 @@
 const express = require('express');
 const chainsawRouter = require('./routes/chainsawRoutes');
+const cartRouter = require('./routes/cartRoutes');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 
 
 
 const app = express();
-const port = 3002;
+const port = 3004
 
 app.set('port', port);
 
@@ -23,6 +24,7 @@ app.get('/', (req, res) => {
 });
 
 app.use('/api/v1/', chainsawRouter);
+app.use('/api/v1/cart', cartRouter);
 
 
 app.use('*', (req, res, next) => {

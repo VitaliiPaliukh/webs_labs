@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c70466e2-d301-4e2e-837a-815b8f60de68" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/common/chainsaws.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/entities/Filters/FiltersOption.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/features/Cart/Cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/features/Cart/Cart.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/features/Loader/Loader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/features/Loader/Loader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/CartPage/CartPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/CartPage/CartPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/http/api.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/ChainsawServices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/reactlabs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/reactlabs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/entities/Chainsaw/Chainsaw.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/entities/Chainsaw/Chainsaw.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/entities/Filters/Filters.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/entities/Filters/Filters.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/entities/ItemDescription/ItemDescription.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/entities/ItemDescription/ItemDescription.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/features/Articles/Articles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/features/Articles/Articles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/features/CatalogFilters/CatalogFilters.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/features/CatalogFilters/CatalogFilters.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/features/CatalogMenu/CatalogMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/features/CatalogMenu/CatalogMenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/features/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/features/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/CatalogPage/CatalogPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/CatalogPage/CatalogPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/ItemPage/ItemPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/ItemPage/ItemPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2pDMfh86lG2CMKr8uEZAsm0WWez" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.App.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.CartPage.jsx.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.api.jsx.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lab8&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;C:/Users/Vitalii/AppData/Roaming/JetBrains/WebStorm2024.2/node/versions/20.15.0/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.2.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c70466e2-d301-4e2e-837a-815b8f60de68" name="Changes" comment="" />
+      <created>1732296301063</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732296301063</updated>
+      <workItem from="1732296310212" duration="871000" />
+      <workItem from="1732362833550" duration="1529000" />
+      <workItem from="1732542600240" duration="2403000" />
+      <workItem from="1732548174817" duration="233000" />
+      <workItem from="1732551717445" duration="10337000" />
+      <workItem from="1732568113043" duration="3655000" />
+      <workItem from="1732607886885" duration="1399000" />
+      <workItem from="1732634941884" duration="773000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

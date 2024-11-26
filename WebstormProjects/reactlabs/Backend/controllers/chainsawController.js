@@ -2,7 +2,7 @@ const chainsaws = require('../models/chainsaw');
 const { Op } = require('sequelize');
 
 const get = async (req, res) => {
-    const { sort, filter, power, rate, size, pageSize, pageAmount } = req.query;
+    const { sort, filter, power, rate, size, pageSize, pageAmount} = req.query;
 
     let queryOptions = {};
 
@@ -28,9 +28,14 @@ const get = async (req, res) => {
     if (filter) {
         queryOptions.where = {
             title: {
-                [Op.like]: `%${filter.trim()}%`
+                [Op.like]: `%${filter}%`
             }
         };
+    }
+
+    if (pageSize && pageAmount) {
+        queryOptions.limit = parseInt(pageSize);
+        queryOptions.offset = parseInt(pageSize) * (parseInt(pageAmount) - 1);
     }
 
     if (power) {
@@ -74,11 +79,6 @@ const get = async (req, res) => {
             default:
                 break;
         }
-    }
-
-    if (pageSize && pageAmount) {
-        queryOptions.limit = parseInt(pageSize);
-        queryOptions.offset = parseInt(pageSize) * (parseInt(pageAmount) - 1);
     }
 
     const chainsaw = await chainsaws.findAll(queryOptions)
@@ -188,7 +188,6 @@ const update = async (req, res, next) => {
                 message: `Cannot update chainsaw with id=${id}. Chainsaw not found`
             });
         }
-        console.log(body)
         chainsawByID.title = body.title;
         chainsawByID.RPM = body.revolutions;
         chainsawByID.power = body.power;

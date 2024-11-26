@@ -1,0 +1,97 @@
+.footer__background{
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    /*padding-top: 154px;*/
+}
+
+/*.footer__background img{*/
+/*    margin-left: 227px;*/
+/*    padding-top: 63px;*/
+/*}*/
+
+.footer_logo{
+    padding: 75px 153px 45px 227px;
+}
+
+
+
+.footer_nav a{
+    display: flex;
+    margin: 0 70px;
+    font-family: Innova, sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.footer_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width: 2200px) {
+    .footer .footer__background .footer_logo .footer_nav a{
+        font-size: 30px;
+    }
+    .footer .footer__background .footer_logo img{
+        width: 250px;
+        height: 80px;
+    }
+
+}
+
+@media screen and (min-width: 1800px) and (max-width: 2200px){
+    .footer .footer__background .footer_logo .footer_nav a{
+        font-size: 22px
+    }
+    .footer .footer__background .footer_logo img{
+        width: 200px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .footer .footer__background .footer_logo{
+        padding: 75px clamp(9.563rem, -18.188rem + 37vw, 14.188rem) 45px ;
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+    .footer .footer__background .footer_logo{
+        padding: 75px clamp(9.563rem, -18.188rem + 37vw, 14.188rem) 45px ;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .footer .footer__background .footer_logo{
+        padding: 75px clamp(4.375rem, -52.688rem + 83vw, 9.563rem) 45px}
+}
+
+
+@media screen and (max-width: 1100px) {
+    .footer .footer__background .footer_logo{
+        padding: 75px 70px 45px}
+}
+
+@media screen and (max-width: 1024px) {
+    .footer .footer__background .footer_logo{
+        padding: 75px 50px 45px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px
+    }
+    nav{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
+
+
+
+/*nav{*/
+/*    display: flex;*/
+/*    margin: 10px 20px;*/
+/*}*/
